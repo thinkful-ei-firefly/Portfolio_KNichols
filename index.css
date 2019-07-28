@@ -1,43 +1,62 @@
+/* ran out of time to fix certain things in this before having to turn it in, will be writing a few tickets for help */
+
 * {
     box-sizing: border-box;
+    scroll-behavior: auto;
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
+    background-image:url('art-deco.jpg');
+
+  }
+
+  h1 {
+    margin-top: 10px;
+    font-size: 26px;
     text-align: center;
-    line-height: 1.5;
+    font-family: 'Fascinate', cursive;
   }
-  
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
+
+  h2 {
+    margin-top: 10px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Fascinate', cursive;
   }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
+
+  h3 {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
-  
-  
-  
-  header {
-    padding: 12% 0;
+
+ p {
+    margin-left: 10%;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+    .hero {
+      width: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+   
+    button {
+      font-family: 'PT Sans Narrow', sans-serif;
+      width: 80px;
+      height: 45px;
+      border: none;
+      border-radius: 4px;
+      margin: 5px;
+      background-color: whitesmoke;
+      font-size: 16px;
+      color: silver;
   }
-  
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
+  button:hover {
+    cursor: pointer;
   }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
-  
