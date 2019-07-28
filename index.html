@@ -1,44 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Kiami Nichols Portfolio</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate|PT+Sans+Narrow&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Kiami Nichols Portfolio</title>
 </head>
+
 <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation">
+        <div class="navbar">
+            <ul>
+                <li class="nav-item"><a href="aboutme">About Me</a></li>
+                <li class="nav-item"><a href="app">Apps</a></li>
+                <li class="nav-item"><a href=contactinfo>Contact Me</a></li>
+            </ul>
+        </div>
+
+    </nav>
     <main role="main">
-        <header role="banner">
-            <h1>Main</h1>
-        </header>
+        <section id="about-me">
+            <h1><a name="about-me">About Me</a></h1>
+            <!--Image on side of this section-->
+            <img class="hero" src="">
+            <p class="welcome">
+                Hey! I'm Kiami Nichols. I am a web developer and recent graduate of the Front End Web Development Career
+                Path bootcamp at Thinkful. I love coding because I love to be challenged. I love the design aspect of
+                coding as well because I have always respected a well designed, functionally sound website.
+                When I am not coding I am working on my other passions, staying healthy and stand-up comedy. I run and
+                perform in comedy shows all over Atlanta. This gives me an excellent work life balance and helps keep my
+                creativity flowing.
+            </p>
+        </section>
+        <section id="apps"> 
+            <h2><a name="apps">My Applications:</a></h2>
+        <div class="application">
+            <div class="it-quiz">
+                <img class="screenshot" src="">
+                <h3>Can You Make It Out Of Derry?<br>It Quiz App<br>I used HTML, CSS, and Javascript writing this application.</h3>
+                <p class="project-details">The quiz is easy to use, it is a11y friendly and provides fun facts when you  access correct answers.
+                    There is a counter for how many you get correct, incorrect and what number you are on currently. It also has a built in map in one of the answers, I won't say which one though, ha.
+                    I had an incredibly fun time writing it with my teammate as well. It taught me a lot about working on a project with another developer.
+                    I used HTML, CSS and Javascript while writing this application.
+                </p>
+            </div>
+        </div>
+
+        <section id="contact-info">
+           <h2><a name="contact-section">Let's Connect!</a>
+            </h2>
+            <ul class="contact-section">
+                <li class="center">
+                    <a href="mailto:kiami.nichols@yahoo.com" target="_blank">
+                        <button type="button" class="email-me">
+                            <i class="fas fa-envelope"></i>
+                         </button>
+                    </a>
+                </li>
+                <li class="contact-section">
+                    <a href="www.linkedin.com/in/kiaminichols" target="_blank">
+                    <button type="button" class="linkedin-contact">
+                            <i class="fab fa-linkedin-in"></i>
+                    </button>
+                    </a>
+                </li>
+                <li class="contact-section">
+                    <a href="https://github.com/kiamimariah" target="_blank">
+                        <button type="button" class="github">
+                                <i class="fab fa-github-alt"></i>
+                        </button>
+                    </a>
+                </li>
+            </ul>       
+ </section>
 
         <section>
-            About Me
-        </section>
-
-        <section class="Bio" id="Bio">
-            BIO
-            I am a web developer and recent graduate of the Front End Web Development Career Path bootcamp at Thinkful. I love coding because I love to be challenged. I love the design aspect of coding as well because I have always respected a well designed, functionally sound website. 
-When I am not coding I am working on my other passions, staying healthy and stand-up comedy. I run and perform in comedy shows all over Atlanta. This gives me an excellent work life balance and helps keep my creativity flowing.
-
-My first project application is the Quiz App. 
-It is an interactive quiz based on the Stephen King novel, 'It'. It has starter page, a question, answer, and score counter that keeps up with the user, five interactive questions, bonus content for correct answers and a restart button at the end.
-The technologies we used to create the application were javascript, css, and html. It was also made a11y friendly. 
-        </section>
-
-        <section>
-            Contact Info
-        </section>
-
-        <section>
-            APPS
-        </section>
         
+        </section>
+
         <section>
             Section
         </section>
     </main>
     <footer role="content-info">Email</footer>
 </body>
+
 </html>
